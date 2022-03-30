@@ -9,6 +9,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4f2529d1-e0f3-4a68-a54c-c7b07de4cbf7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -17,10 +20,22 @@
     <ClCompile Include="stdafx.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Framework\game.c">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Renderer.c">
+      <Filter>Framework</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\game.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Renderer.h">
+      <Filter>Framework</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
